@@ -5,8 +5,8 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  azureSubscription: '<YOUR_AZURE_SUBSCRIPTION>'
-  webAppName: '<YOUR_WEB_APP_NAME>'
+  azureSubscription: 'azure'
+  webAppName: 'Testlocal'
   artifactName: 'drop'
 
 stages:
